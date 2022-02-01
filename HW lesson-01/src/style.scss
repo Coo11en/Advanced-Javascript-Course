@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+height: 8vh;
+text-align: center;
+
+footer {
+text-align: end;
+height: 4vh;
+}
+
+.showcase {
+display: grid;
+gap: 2vh;
+grid-template-rows: 16vh 16vh 16vh 16vh 16vh;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.goods-item {
+    background-color: red;
+    text-align: center;
+    color: #fff;
+}
