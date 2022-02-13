@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+h3 {
+	text-align-last: center;
+	margin-bottom: 10px;
+}
+.forma {
+	height: 400px;
+	width: 400px;
+	background-color: rgb(137, 202, 255);
+	border-radius: 40px;
+	border: 5px solid rgb(81, 127, 255);
+}
+.email {
+	width: 60%;
+	height: 20px;
+	margin: 10px auto;
+}
+.tel {
+	width: 44%;
+	height: 20px;
+	margin: 10px auto;
+}
+.com {
+	width: 51%;
+	height: 200px;
+	margin: 10px auto;
+}
+.btnpub {
+	padding: 10px 40px;
+	background-color: rgb(53, 255, 211);
+	border: 2px solid rgb(252, 214, 134);
+	border-radius: 10px;
+}
+.btncenter {
+	text-align: center;
+}
