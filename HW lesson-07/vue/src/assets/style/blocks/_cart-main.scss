@@ -1,0 +1,177 @@
+.cart-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-cart-item {
+    margin-right: 100px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+    box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+    display: flex;
+    height: 275px;
+}
+
+.card-cart-img {
+    height: 100%;
+}
+
+.cart-card{
+    max-width: 652px;
+
+}
+
+.card-cart-item-desc {
+    list-style: none;
+
+}
+
+.card-cart-item-list{
+    padding: 20px 100px 60px 30px;
+}
+
+.card-cart-item-name{
+    font-family: Lato;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 40px;
+    font-style: normal;
+}
+
+.cart-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: #575757;
+    font-family: Lato;
+}
+
+.cart-card-quant {
+    font-size: 18px;
+    line-height: 22px;
+    color: #656565;
+    margin-left: 30px;
+    border: 0px;
+    width: 40px;
+}
+
+
+.card-cart-item-close {
+    position: absolute;
+    right: 22px;
+    top: 28px;
+
+    &:active {
+        transform: scale(0.8);
+    }
+}
+
+.group-btn-cart{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 130px;
+}
+
+.btn-cart{
+    border: 1px solid #A4A4A4;
+    padding: 16px 40px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    font-family: Lato;
+
+    
+    &:hover {
+        background-color: $main-color;
+        color: $main-color-std;
+    }
+
+    &:active {
+        transform: scale(0.9);
+        
+    }
+}
+
+.cart-forms {
+    width: 360px;
+}
+
+.cart-form-name {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.cart-form-input {
+    width: 100%;
+    padding: 10px 0;
+    margin: 0 auto 20px;
+    padding: 14px 70px 14px 20px;
+}
+
+.cart-form-btn {
+    border: 1px solid #A4A4A4;
+    padding: 10px 15px;
+    font-family: Lato;
+        
+    &:hover {
+        background-color: $main-color;
+        color: $main-color-std;
+    }
+
+    &:active {
+        transform: scale(0.9);
+    }
+}
+
+.cart-form-grand {
+    padding: 40px 35px;
+    text-align: end;
+}
+
+.cart-sub {
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    padding-bottom: 10px;
+}
+
+.cart-grand {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    padding-bottom: 40px;
+}
+
+.cart-main-btn {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #F16D7F;
+    padding: 15px 40px;
+    font-family: Lato;
+    border: 1px solid #F16D7F;
+
+        
+    &:hover {
+        background-color: $main-color-std;
+        color: $main-color;
+    }
+
+    &:active {
+        transform: scale(0.9);
+    }
+}
